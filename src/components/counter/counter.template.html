@@ -1,0 +1,9 @@
+<div>
+    <h2>Counter {{ count }}</h2>
+    <h2>Name is: {{ name || 'missing!' }}</h2>
+    <h3 ng-if="localTime">{{ localTime }}</h3>
+    <div>
+        <button ng-click="increment()">increment</button>
+        <button ng-click="decrement()">decrement</button>
+    </div>
+</div>
